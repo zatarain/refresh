@@ -60,7 +60,7 @@ fi
 
 # Associative array for count.
 declare -A counter
-#: '
+: '
 # Counting by file name
 files=(README Kconfig Kbuild Makefile .*\\.c .*\\.h .*\\.pl .*gpio.*)
 regex=$(join files[@] "\\|")
