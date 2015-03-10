@@ -1,0 +1,1056 @@
+Working directory
+    Copyright (c) 2007 - 2008 Jacob Jun Pan <jacob.jun.pan@intel.com>
+MODULE_AUTHOR("Jacob Pan <jacob.jun.pan@intel.com>");
+MODULE_AUTHOR("Ba Zheng <zheng.ba@intel.com>");
+ * Author: Allen M. Kay <allen.m.kay@intel.com>
+ * Author: Weidong Han <weidong.han@intel.com>
+ *  Yunhong Jiang <yunhong.jiang@intel.com>
+ *  Yaozu (Eddie) Dong <eddie.dong@intel.com>
+ *   Yaozu (Eddie) Dong <Eddie.dong@intel.com>
+ *	Huang Ying <ying.huang@intel.com>
+ *                 <dmitry.kasatkin@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>.
+ * Copyright (C) 2000 Asit Mallick <Asit.K.Mallick@intel.com>
+ * Copyright (C) 2000 Goutham Rao <goutham.rao@intel.com>
+Author: Alexander Duyck <alexander.h.duyck@intel.com>
+Original Author: Peter P. Waskiewicz Jr. <peter.p.waskiewicz.jr@intel.com>
+ * Author: Patrick Ohly <patrick.ohly@intel.com>
+	Intel Corporation (Jesse Barnes &lt;jesse.barnes@intel.com&gt;)
+Contact: eric.lapuyade@intel.com, samuel.ortiz@intel.com
+		2006 luming.yu@intel.com
+   Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+  Randy Dunlap <randy.dunlap@intel.com>
+   (C) 2008 Intel Corporation < linux-wimax@intel.com >
+   For more information, please contact linux-wimax@intel.com.
+   (C) 2008 Intel Corporation < linux-wimax@intel.com >
+			Ashok Raj <ashok.raj@intel.com>
+Authors: Ashok Raj <ashok.raj@intel.com>
+Written by Sujith Thomas <sujith.thomas@intel.com>, Zhang Rui <rui.zhang@intel.com>
+    - ACPI development tree, Len Brown <len.brown@intel.com >
+    - ia64 development tree, Tony Luck < tony.luck@intel.com>
+		T. Long Nguyen	<tom.l.nguyen@intel.com>
+		Yanmin Zhang	<yanmin.zhang@intel.com>
+	Tom L Nguyen tom.l.nguyen@intel.com
+	Tom L Nguyen tom.l.nguyen@intel.com
+		    Yu Zhao <yu.zhao@intel.com>
+Written by Zhang Rui <rui.zhang@intel.com>
+             Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+Who:	Len Brown <len.brown@intel.com>
+Who:	Len Brown <len.brown@intel.com>
+Who:	Len Brown <len.brown@intel.com>
+Who:	Zhang Rui <rui.zhang@intel.com>
+Who:	Zhang Rui <rui.zhang@intel.com>
+Who:	Len Brown <len.brown@intel.com>
+Who:	Wey-Yi Guy <wey-yi.w.guy@intel.com>
+Who:	Wey-Yi Guy <wey-yi.w.guy@intel.com>
+Who:	Wey-Yi Guy <wey-yi.w.guy@intel.com>
+Who:	Don Fry <donald.h.fry@intel.com>
+Contact:	Yu Zhao <yu.zhao@intel.com>
+Contact:	Yu Zhao <yu.zhao@intel.com>
+Contact:	Yu Zhao <yu.zhao@intel.com>
+Contact:	Huang Ying <ying.huang@intel.com>
+Contact:	Chuanxiao Dong <chuanxiao.dong@intel.com>
+Contact:	Chuanxiao Dong <chuanxiao.dong@intel.com>
+Contact:	alan.cox@intel.com
+Contact:	alan.cox@intel.com
+Contact:	alan.cox@intel.com
+Contact:	Liu, Jinsong <jinsong.liu@intel.com>
+Contact:	Liu, Jinsong <jinsong.liu@intel.com>
+Contact:	Dan Williams <dan.j.williams@intel.com>
+Contact:	Robert Love <robert.w.love@intel.com>, devel@open-fcoe.org
+Contact:	Robert Love <robert.w.love@intel.com>, devel@open-fcoe.org
+Contact:	Sarah Sharp <sarah.a.sharp@intel.com>
+Contact:	Sarah Sharp <sarah.a.sharp@intel.com>
+Contact:	Sarah Sharp <sarah.a.sharp@intel.com>
+Contact:	Dave Jiang <dave.jiang@intel.com>
+Contact:	tony.luck@intel.com
+								Xiantao Zhang <xiantao.zhang@intel.com>
+ *	Fenghua Yu <fenghua.yu@intel.com>
+    - ACPI开发源码树, Len Brown <len.brown@intel.com>
+    - ia64开发源码树, Tony Luck <tony.luck@intel.com>
+ * Copyright (C) 2004 Intel Corporation <matthew.e.tolentino@intel.com>
+ *  21 Apr 2004 - Matt Tolentino <matthew.e.tolentino@intel.com)
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>");
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>");
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>");
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Author: Jacob Pan <jacob.jun.pan@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>");
+ * Original Author: Naeem M Afzal <naeem.m.afzal@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>");
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>");
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>");
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Reinette Chatre <reinette.chatre@intel.com>
+ * Reinette Chatre <reinette.chatre@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>");
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>");
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Maintainer  <mark.gross@intel.com>
+ * 460GX support by Chris Ahna <christopher.j.ahna@intel.com>
+MODULE_AUTHOR("Chris Ahna <Christopher.J.Ahna@intel.com>");
+ *  Oct 2005 - Ashok Raj <ashok.raj@intel.com>
+ *            (C)  2003 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>.
+ *                      Jun Nakajima <jun.nakajima@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2006       Denis Sadykov <denis.m.sadykov@intel.com>
+ *            (C)  2003 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>.
+ *                      Jun Nakajima <jun.nakajima@intel.com>
+MODULE_AUTHOR("Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>");
+MODULE_AUTHOR("Alexey Starikovskiy <alexey.y.starikovskiy@intel.com>");
+ *  Copyright (C) 2003-2004 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>.
+ *  (C) 2004 Zou Nan hai <nanhai.zou@intel.com>.
+MODULE_AUTHOR("Zou Nan hai <nanhai.zou@intel.com>");
+ * Written by Matt Tolentino <matthew.e.tolentino@intel.com>
+ *  Copyright (C) 2008 Zhang Rui <rui.zhang@intel.com>
+ *  Copyright (C) 2008 Sujith Thomas <sujith.thomas@intel.com>
+ *	Curt E Bruns <curt.e.bruns@intel.com>
+ *	Dan Williams <dan.j.williams@intel.com>
+MODULE_AUTHOR("Curt E Bruns <curt.e.bruns@intel.com>");
+ * Intel Corporation <linux-wimax@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2007 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2007-2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+MODULE_AUTHOR("Intel Corporation <linux-wimax@intel.com>");
+ * Copyright (C) 2007 Intel Corporation <linux-wimax@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Originally by Reinette Chatre <reinette.chatre@intel.com>
+ * Copyright (C) 2007-2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2007-2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2007 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2007-2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2007-2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Intel Corporation <linux-wimax@intel.com>");
+ * Intel Corporation <linux-wimax@intel.com>
+ * Yanir Lubetkin <yanirx.lubetkin@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Intel Corporation, <linux.nics@intel.com>");
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+MODULE_AUTHOR("Intel Corporation, <linux.nics@intel.com>");
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+# Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+MODULE_AUTHOR("Intel Corporation, <linux.nics@intel.com>");
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+# Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+# Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+MODULE_AUTHOR("Intel Corporation, <linux.nics@intel.com>");
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+# Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+ *	(Re)written 2003 by scott.feldman@intel.com.  Based loosely on
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+# Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+MODULE_AUTHOR("Intel Corporation, <linux.nics@intel.com>");
+  Linux NICS <linux.nics@intel.com>
+  Linux NICS <linux.nics@intel.com>
+ * Boji Tony Kannanthanam <boji.t.kannanthanam@intel.com>               *
+ * Jim Stanley <jim.stanley@intel.com>
+ * Russ Gorby <russ.gorby@intel.com>
+ *	by Feng Tang <feng.tang@intel.com>
+ *      Jesse Barnes <jesse.barnes@intel.com>
+ *    Matthew J Sottek <matthew.j.sottek@intel.com> sent in a patch to fix
+ *      Jesse Barnes <jesse.barnes@intel.com>
+ * Copyright 2008 Intel Corporation <hong.liu@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *      Jesse Barnes <jesse.barnes@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *    Eugeni Dodonov <eugeni.dodonov@intel.com>
+ * @intel_dp: DP struct
+ * @intel_dp: DP struct
+ * @intel_dp: DP struct
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *    Zou Nan hai <nanhai.zou@intel.com>
+ *    Xiang Hai hao<haihao.xiang@intel.com>
+ *    Eugeni Dodonov <eugeni.dodonov@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *	Jesse Barnes <jesse.barnes@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *      Jesse Barnes <jesse.barnes@intel.com>
+ *      Jesse Barnes <jesse.barnes@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *    Benjamin Defnet <benjamin.r.defnet@intel.com>
+ *    Rajesh Poornachandran <rajesh.poornachandran@intel.com>
+ * Thomas Eaton <thomas.g.eaton@intel.com>
+ * Scott Rowe <scott.m.rowe@intel.com>
+ * Thomas Eaton <thomas.g.eaton@intel.com>
+ * Scott Rowe <scott.m.rowe@intel.com>
+ * jim liu <jim.liu@intel.com>
+ * Jackie Li<yaodong.li@intel.com>
+ * jim liu <jim.liu@intel.com>
+ * Jackie Li<yaodong.li@intel.com>
+ *    Benjamin Defnet <benjamin.r.defnet@intel.com>
+ *    Rajesh Poornachandran <rajesh.poornachandran@intel.com>
+ *	Jesse Barnes <jesse.barnes@intel.com>
+ * Authers: Jesse Barnes <jesse.barnes@intel.com>
+ *	jim liu <jim.liu@intel.com>
+ *    Benjamin Defnet <benjamin.r.defnet@intel.com>
+ *    Rajesh Poornachandran <rajesh.poornachandran@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ * Jackie Li<yaodong.li@intel.com>
+ *	Jesse Barnes <jesse.barnes@intel.com>
+ * jim liu <jim.liu@intel.com>
+ * Jackie Li<yaodong.li@intel.com>
+ *	Jesse Barnes <jesse.barnes@intel.com>
+ *	Li Peng <peng.li@intel.com>
+ * jim liu <jim.liu@intel.com>
+ * Jackie Li<yaodong.li@intel.com>
+ *	Li Peng <peng.li@intel.com>
+ * jim liu <jim.liu@intel.com>
+ * Jackie Li<yaodong.li@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ * Jackie Li<yaodong.li@intel.com>
+ * Jim Liu <jim.liu@intel.com>
+ * Jackie Li<yaodong.li@intel.com>
+ * Scott Rowe <scott.m.rowe@intel.com>
+ * Author: Jacob Pan (jacob.jun.pan@intel.com)
+ *	   Feng Tang (feng.tang@intel.com)
+ * Copyright (c) 2004 Li Shaohua <shaohua.li@intel.com>
+ * Copyright (c) 2004 Li Shaohua <shaohua.li@intel.com>
+ *  Copyright (C) 2006 Luming Yu <luming.yu@intel.com>
+MODULE_AUTHOR("Luming Yu <luming.yu@intel.com>");
+ *     2003/08/27: <yu.tang@intel.com>
+ *     2004/03/10: <stanley.cai@intel.com>
+ *     2004/10/28: <yan.yin@intel.com>
+MODULE_AUTHOR("Feng Tang <feng.tang@intel.com>");
+MODULE_AUTHOR("Feng Tang <feng.tang@intel.com>");
+ * Author: Jacob Pan (jacob.jun.pan@intel.com)
+ * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+ * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+ *	Tom Long Nguyen (tom.l.nguyen@intel.com)
+ *	Zhang Yanmin (yanmin.zhang@intel.com)
+ *	Tom Long Nguyen (tom.l.nguyen@intel.com)
+ *	Zhang Yanmin (yanmin.zhang@intel.com)
+ *     Huang Ying <ying.huang@intel.com>
+ *	Tom Long Nguyen (tom.l.nguyen@intel.com)
+ *	Zhang Yanmin (yanmin.zhang@intel.com)
+#define DRIVER_AUTHOR "tom.l.nguyen@intel.com"
+ *	Tom Long Nguyen (tom.l.nguyen@intel.com)
+ *	Zhang Yanmin (yanmin.zhang@intel.com)
+ *	Tom Long Nguyen (tom.l.nguyen@intel.com)
+ *	Zhang Yanmin (yanmin.zhang@intel.com)
+ * Copyright (C) Zhang Yanmin (yanmin.zhang@intel.com)
+ * Copyright (C) Shaohua Li (shaohua.li@intel.com)
+ * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+#define DRIVER_AUTHOR "tom.l.nguyen@intel.com"
+ * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+ * Copyright (C) 2007 - 2009 Shaohua Li <shaohua.li@intel.com>
+ * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+ * Copyright (C) 2009 Intel Corporation, Yu Zhao <yu.zhao@intel.com>
+ * Send feedback to <greg@kroah.com>,<kristen.c.accardi@intel.com>
+ * Send feedback to <greg@kroah.com>,<kristen.c.accardi@intel.com>
+ * Send feedback to <greg@kroah.com>, <kristen.c.accardi@intel.com>
+#define DRIVER_AUTHOR	"Dan Zink <dan.zink@compaq.com>, Greg Kroah-Hartman <greg@kroah.com>, Dely Sy <dely.l.sy@intel.com>"
+ * Send feedback to <greg@kroah.com>, <kristen.c.accardi@intel.com>
+ * Send feedback to <greg@kroah.com>, <kristen.c.accardi@intel.com>
+#define DRIVER_AUTHOR	"Dan Zink <dan.zink@compaq.com>, Greg Kroah-Hartman <greg@kroah.com>, Dely Sy <dely.l.sy@intel.com>"
+ * Copyright (C) 2005 Rajesh Shah (rajesh.shah@intel.com)
+ * Send feedback to <kristen.c.accardi@intel.com>
+ * Send feedback to <greg@kroah.com>, <kristen.c.accardi@intel.com>
+ * Send feedback to <greg@kroah.com>,<kristen.c.accardi@intel.com>
+ * Send feedback to <greg@kroah.com>, <kristen.c.accardi@intel.com>
+ * Send feedback to <greg@kroah.com>, <kristen.c.accardi@intel.com>
+ * Send feedback to <kristen.c.accardi@intel.com>
+ * Send feedback to <kristen.c.accardi@intel.com>
+ * Send feedback to <kristen.c.accardi@intel.com>
+ * Send feedback to <greg@kroah.com>, <kristen.c.accardi@intel.com>
+ * Copyright (C) 2009 Intel Corporation, Yu Zhao <yu.zhao@intel.com>
+ * Copyright (C) 2005 David Shaohua Li <shaohua.li@intel.com>
+ * Copyright (C) 2004 Tom Long Nguyen <tom.l.nguyen@intel.com>
+ * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+ *		Boji T Kannanthanam <boji.t.kannanthanam@intel.com>
+ *		Boji T Kannanthanam <boji.t.kannanthanam@intel.com>
+ *		Boji T Kannanthanam <boji.t.kannanthanam@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ * Copyright (c) 2005 David Shaohua Li <shaohua.li@intel.com>
+ *  Copyright (C) 2001 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ * Copyright (c) 2005 Alexey Starikovskiy <alexey.y.starikovskiy@intel.com>
+ * Copyright (c) 2004 David Shaohua Li <shaohua.li@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *	Author: Huang Ying <ying.huang@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *	Author: Huang Ying <ying.huang@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2004  Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2004-2007 Vladimir Lebedev <vladimir.p.lebedev@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2010 Zhao Yakui <yakui.zhao@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2004  Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ *  Copyright (C) 2005  Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *  Copyright (C) 2004 Len Brown <len.brown@intel.com>
+ *  Copyright (C) 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2004 Luming Yu <luming.yu@intel.com>
+ * Copyright (C) 2004 Intel Corporation <naveen.b.s@intel.com>
+MODULE_AUTHOR("Naveen B S <naveen.b.s@intel.com>");
+ * Copyright (C) 2004 Anil S Keshavamurthy (anil.s.keshavamurthy@intel.com)
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2004  Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ *  Copyright (C) 2006 Kristen Carlson Accardi <kristen.c.accardi@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (c) 2005-2007 Vladimir Lebedev <vladimir.p.lebedev@intel.com>
+ * Copyright (C) 2004 Li Shaohua <shaohua.li@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2004  Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ *  Copyright (C) 2006 Denis Sadykov <denis.m.sadykov@intel.com>
+ *  Copyright (C) 2004 Luming Yu <luming.yu@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+MODULE_AUTHOR("Shaohua Li<shaohua.li@intel.com>");
+ *	Author: Huang Ying <ying.huang@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2004  Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ *	Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *  Author: Vinod Koul <vinod.koul@intel.com>
+MODULE_AUTHOR("Vinod Koul <vinod.koul@intel.com>");
+MODULE_AUTHOR("Yong Wang <yong.y.wang@intel.com>");
+ *  Author: Vinod Koul <vinod.koul@intel.com>
+ *  Copyright (c) 2008 Alek Du <alek.du@intel.com>
+MODULE_AUTHOR("Alek Du <alek.du@intel.com>");
+ * Authors: Bruce E. Robertson <bruce.e.robertson@intel.com>
+MODULE_AUTHOR("Bruce E. Robertson <bruce.e.robertson@intel.com>");
+ * Author: Nithish Mahalingam <nithish.mahalingam@intel.com>
+MODULE_AUTHOR("Nithish Mahalingam <nithish.mahalingam@intel.com>");
+ * Author: Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ * Author: Ashok Raj <ashok.raj@intel.com>
+ * Author: Shaohua Li <shaohua.li@intel.com>
+ * Author: Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ * Author: Ashok Raj <ashok.raj@intel.com>
+ * Author: Shaohua Li <shaohua.li@intel.com>
+ * Author: Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ * Author: Fenghua Yu <fenghua.yu@intel.com>
+ *  Copyright (C) 2008 Sujith Thomas <sujith.thomas@intel.com>
+ *  Copyright (C) 2008 Zhang Rui <rui.zhang@intel.com>
+	      "Yong Wang <yong.y.wang@intel.com>");
+MODULE_AUTHOR("Alek Du <alek.du@intel.com>");
+MODULE_AUTHOR("Hong Liu <hong.liu@intel.com>");
+ * Author: Sreedhara DS (sreedhara.ds@intel.com)
+MODULE_AUTHOR("Sreedhara DS <sreedhara.ds@intel.com>");
+ * Author: Durgadoss R <durgadoss.r@intel.com>
+MODULE_AUTHOR("Durgadoss R <durgadoss.r@intel.com>");
+ * Author: Yin Kangkai (kangkai.yin@intel.com)
+MODULE_AUTHOR("Yin Kangkai (kangkai.yin@intel.com)");
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ * Author: Sreedhara DS (sreedhara.ds@intel.com)
+MODULE_AUTHOR("Sreedhara <sreedhara.ds@intel.com>");
+    Copyright (c) 2007 - 2008 Jacob Jun Pan <jacob.jun.pan@intel.com>
+MODULE_AUTHOR("Jacob Pan <jacob.jun.pan@intel.com>");
+MODULE_AUTHOR("Ba Zheng <zheng.ba@intel.com>");
+ *  Mark Allyn		mark.a.allyn@intel.com
+ *  Jayant Mangalampalli jayant.mangalampalli@intel.com
+ *  Mark Allyn		mark.a.allyn@intel.com
+ *  Jayant Mangalampalli jayant.mangalampalli@intel.com
+ *  Mark Allyn		mark.a.allyn@intel.com
+ *  Jayant Mangalampalli jayant.mangalampalli@intel.com
+ *  Mark Allyn		mark.a.allyn@intel.com
+ *  Jayant Mangalampalli jayant.mangalampalli@intel.com
+ *  Mark Allyn		mark.a.allyn@intel.com
+ *  Jayant Mangalampalli jayant.mangalampalli@intel.com
+ *  Mark Allyn		mark.a.allyn@intel.com
+ *  Jayant Mangalampalli jayant.mangalampalli@intel.com
+ *  Mark Allyn		mark.a.allyn@intel.com
+ *  Jayant Mangalampalli jayant.mangalampalli@intel.com
+ * Questions/Comments/Bug fixes to Ramesh Agarwal (ramesh.agarwal@intel.com)
+MODULE_AUTHOR("Ramesh Agarwal <ramesh.agarwal@intel.com>");
+ * Author: Weidong Han <weidong.han@intel.com>
+ * Author: Liu, Jinsong <jinsong.liu@intel.com>
+ * Author: Jiang, Yunhong <yunhong.jiang@intel.com>
+ * Author: Ke, Liping <liping.ke@intel.com>
+ * so many thanks go to Kevin Tian <kevin.tian@intel.com>
+ * and Yu Ke <ke.yu@intel.com>.
+ * Copyright (c) 2011 Yu Ke ke.yu@intel.com
+ * Author: Liu, Jinsong <jinsong.liu@intel.com>
+ * Author: Jiang, Yunhong <yunhong.jiang@intel.com>
+MODULE_AUTHOR("Kalhan Trisal <kalhan.trisal@intel.com");
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ * (C) 2006-2007 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *               Shaohua Li <shaohua.li@intel.com>
+ * (C) 2006-2007 Shaohua Li <shaohua.li@intel.com>
+ * (C) 2006-2007 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *               Shaohua Li <shaohua.li@intel.com>
+ * (C) 2006-2007 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *               Shaohua Li <shaohua.li@intel.com>
+ * (C) 2006-2007 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *               Shaohua Li <shaohua.li@intel.com>
+MODULE_AUTHOR("Anantha Narayanan <Anantha.Narayanan@intel.com");
+MODULE_AUTHOR("Kalhan Trisal <kalhan.trisal@intel.com");
+MODULE_AUTHOR("Kalhan Trisal <kalhan.trisal@intel.com>");
+ * Questions/Comments/Bug fixes to Sreedhara (sreedhara.ds@intel.com)
+ *			    Ramesh Agarwal (ramesh.agarwal@intel.com)
+MODULE_AUTHOR("Sreedhara Murthy. D.S, sreedhara.ds@intel.com");
+ * Andy Henroid <andrew.d.henroid@intel.com>
+ * Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+MODULE_AUTHOR("Andy Henroid <andrew.d.henroid@intel.com>");
+ * Len Brown <len.brown@intel.com>
+MODULE_AUTHOR("Len Brown <len.brown@intel.com>");
+ *  Copyright (C) 2008 Intel Corporation <linux-wimax@intel.com>
+ *  Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2005-2006 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2007-2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2007 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2007-2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2005-2006 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2005-2006 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+MODULE_AUTHOR("Intel Corporation <linux-wimax@intel.com>");
+ * Copyright (C) 2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Kevin Gao		    <kevin.gao@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Xingang Guo           <xingang.guo@intel.com>
+ *    Xingang Guo           <xingang.guo@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Ardelle Fan           <ardelle.fan@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Xingang Guo           <xingang.guo@intel.com>
+ *    Kevin Gao             <kevin.gao@intel.com>
+ *    Xingang Guo           <xingang.guo@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Kevin Gao             <kevin.gao@intel.com>
+ *    Xingang Guo           <xingang.guo@intel.com>
+ *    Inaky Perez-Gonzalez  <inaky.gonzalez@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Kevin Gao             <kevin.gao@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Kevin Gao             <kevin.gao@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Ardelle Fan <ardelle.fan@intel.com>
+ *    Xingang Guo <xingang.guo@intel.com>
+ *    Ardelle Fan <ardelle.fan@intel.com>
+ *    Xingang Guo           <xingang.guo@intel.com>
+ * Author: Alexander Duyck <alexander.h.duyck@intel.com>
+MODULE_AUTHOR("Alexander Duyck, <alexander.h.duyck@intel.com>");
+ * Copyright (c) 2010 John Fastabend <john.r.fastabend@intel.com>
+ * Author: Alexander Duyck <alexander.h.duyck@intel.com>
+ * Copyright (C) 1999 		Arun Sharma <arun.sharma@intel.com>
+ * Author: Lucy Liu <lucy.liu@intel.com>
+MODULE_AUTHOR("Lucy Liu, <lucy.liu@intel.com>");
+ * Author: John Fastabend <john.r.fastabend@intel.com>
+ *	Manohar Castelino <manohar.r.castelino@intel.com>
+ *	Kuo-Lang Tseng <kuo-lang.tseng@intel.com>
+MODULE_AUTHOR("Kuo-Lang Tseng <kuo-lang.tseng@intel.com>");
+ *  Copyright (C) 2009 Intel Corporation, <markus.t.metzger@intel.com>
+ * Copyright (C) 2002, Rohit Seth <rohit.seth@intel.com>
+	printk(KERN_INFO "Modified for M5307 by Dave Miller, dmiller@intellistor.com\n");
+ * Author: Dave Jiang <dave.jiang@intel.com>
+ * Author: Dave Jiang (dave.jiang@intel.com)
+ * Author:	Dave Jiang (dave.jiang@intel.com)
+ * Author: Dave Jiang (dave.jiang@intel.com)
+ * Author: Dave Jiang <dave.jiang@intel.com>
+ * Author: Dave Jiang <dave.jiang@intel.com>
+ *	some contributions by Brett Gaines <brett.w.gaines@intel.com>
+ * Author: Matt Gilbert (matthew.m.gilbert@intel.com)
+	/* Maintainer: Dan Williams <dan.j.williams@intel.com> */
+	/* Maintainer: Dan Williams <dan.j.williams@intel.com> */
+ * Copyright (C) 2002, Rohit Seth <rohit.seth@intel.com>
+ * Copyright (C) 2002, Rohit Seth <rohit.seth@intel.com>
+ *  Copyright (C) 2009 Intel Corporation, <markus.t.metzger@intel.com>
+ *	- Copyright 2011 Fenghua Yu <fenghua.yu@intel.com>
+ * Copyright (C) 1999		Arun Sharma <arun.sharma@intel.com>
+ *  Louis Zhuang (louis.zhuang@intel.com)
+ * (C) 2002 Louis Zhuang <louis.zhuang@intel.com>.
+ * Copyright (C) 2002, Rohit Seth <rohit.seth@intel.com>
+ * Authors: Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *          Suresh B Siddha <suresh.b.siddha@intel.com>
+ * Authors: Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *          Suresh B Siddha <suresh.b.siddha@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *    Author: Huang Ying <ying.huang@intel.com>
+ *    Author: Huang Ying <ying.huang@intel.com>
+ *            Vinodh Gopal <vinodh.gopal@intel.com>
+ *    Authors: Erdinc Ozturk (erdinc.ozturk@intel.com)
+ *             Aidan O'Mahony (aidan.o.mahony@intel.com)
+ *             Adrian Hoban <adrian.hoban@intel.com>
+ *             James Guilford (james.guilford@intel.com)
+ *             Gabriele Paoloni <gabriele.paoloni@intel.com>
+ *             Tadeusz Struk (tadeusz.struk@intel.com)
+ *             Wajdi Feghali (wajdi.k.feghali@intel.com)
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *   Authors: Maxim Locktyukhin <maxim.locktyukhin@intel.com>
+ *            Ronen Zohar <ronen.zohar@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *    Author: Huang Ying <ying.huang@intel.com>
+ *    Author: Huang Ying <ying.huang@intel.com>
+ *    Authors: Adrian Hoban <adrian.hoban@intel.com>
+ *             Gabriele Paoloni <gabriele.paoloni@intel.com>
+ *             Tadeusz Struk (tadeusz.struk@intel.com)
+ *             Aidan O'Mahony (aidan.o.mahony@intel.com)
+ *          Kent Liu <kent.liu@intel.com>
+MODULE_AUTHOR("Austin Zhang <austin.zhang@intel.com>, Kent Liu <kent.liu@intel.com>");
+ *     Jesse Barnes <jesse.barnes@intel.com>
+ * Author: Jacob Pan (jacob.jun.pan@intel.com)
+ * Author: Suresh Siddha <suresh.b.siddha@intel.com>
+ *		      2006	Shaohua Li <shaohua.li@intel.com>
+ *	1.08	11 Dec 2000, Richard Schaal <richard.schaal@intel.com> and
+ *	1.10	28 Feb 2002 Asit K Mallick <asit.k.mallick@intel.com> and
+ *	1.12	29 Sep 2003 Nitin Kamble <nitin.a.kamble@intel.com>,
+ *		Jun Nakajima <jun.nakajima@intel.com>
+ * 2005-May	Rusty Lynch <rusty.lynch@intel.com>
+ *	CPU hotplug support - ashok.raj@intel.com
+ *  Copyright (C) 2009 Intel Corporation, <markus.t.metzger@intel.com>
+ *  Copyright (C) 2010 Intel Corporation, Lin Ming <ming.m.lin@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *	Ashok Raj <ashok.raj@intel.com>: Work with CPU hotplug infrastructure.
+ * Authors: Fenghua Yu <fenghua.yu@intel.com>,
+ *  Copyright (C) 2009 Intel Corporation, <markus.t.metzger@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001 Jun Nakajima <jun.nakajima@intel.com>
+ * 	Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *		      2006	Shaohua Li <shaohua.li@intel.com>
+ *	1.08	11 Dec 2000, Richard Schaal <richard.schaal@intel.com> and
+ *	1.10	28 Feb 2002 Asit K Mallick <asit.k.mallick@intel.com> and
+ *	1.12	29 Sep 2003 Nitin Kamble <nitin.a.kamble@intel.com>,
+ *		Jun Nakajima <jun.nakajima@intel.com>
+ *	Huang Ying <ying.huang@intel.com>
+ *  Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ * Author: Jacob Pan (jacob.jun.pan@intel.com)
+ * Goutham Rao: <goutham.rao@intel.com>
+ *	Fenghua Yu <fenghua.yu@intel.com>
+ *	Bibo Mao <bibo.mao@intel.com>
+ *	Huang Ying <ying.huang@intel.com>
+ *	Fenghua Yu <fenghua.yu@intel.com>
+ *	Bibo Mao <bibo.mao@intel.com>
+ *	Huang Ying <ying.huang@intel.com>
+ * Goutham Rao: <goutham.rao@intel.com>
+ *	Bibo Mao <bibo.mao@intel.com>
+ *	Huang Ying <ying.huang@intel.com>
+ * Authors: Fenghua Yu <fenghua.yu@intel.com>,
+ * Author: Jacob Pan (jacob.jun.pan@intel.com)
+ *  Copyright (C) 2001 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ * Copyright 2002 Andy Grover <andrew.grover@intel.com>
+ *   Yaozu (Eddie) Dong <Eddie.dong@intel.com>
+ *   Sheng Yang <sheng.yang@intel.com>
+ *   Yaozu (Eddie) Dong <Eddie.dong@intel.com>
+ *   Yaozu (Eddie) Dong <Eddie.dong@intel.com>
+ *   Yaozu (Eddie) Dong <eddie.dong@intel.com>
+ * Copyright (C) 2002, Rohit Seth <rohit.seth@intel.com>
+ * Copyright (C) 2002 Ken Chen <kenneth.w.chen@intel.com>
+ * Copyright (C) 2002, 2006 Ken Chen <kenneth.w.chen@intel.com>
+ * Copyright (C) 2002 Ken Chen <kenneth.w.chen@intel.com>
+ * 02/04/22	Ken Chen <kenneth.w.chen@intel.com>
+ * 01/04/18	Jun Nakajima <jun.nakajima@intel.com>
+ * 08/02/00 A. Mallick <asit.k.mallick@intel.com>
+ *          Goutham Rao <goutham.rao@intel.com>
+ * Rohit Seth <rohit.seth@intel.com>
+ * Ken Chen <kenneth.w.chen@intel.com>
+ *	Fenghua Yu <fenghua.yu@intel.com>
+ * Copyright (C) 2002-2004 Rohit Seth <rohit.seth@intel.com>
+ * Copyright (C) 2003-2004 Ken Chen <kenneth.w.chen@intel.com>
+ * Copyright (c) 2001 Tony Luck <tony.luck@intel.com>
+ * Copyright (C) 2000, Rohit Seth <rohit.seth@intel.com>
+ * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
+ *	Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ * 2002-01-04 J.Hall <jenna.s.hall@intel.com>
+ *	Asit Mallick <asit.k.mallick@intel.com>
+ *      Suresh Siddha <suresh.b.siddha@intel.com>
+ *      Kenneth Chen <kenneth.w.chen@intel.com>
+ *      Fenghua Yu <fenghua.yu@intel.com>
+ * 00/08/23 Asit Mallick <asit.k.mallick@intel.com> TLB handling for SMP
+ *      Yaozu (Eddie) Dong <eddie.dong@intel.com>
+ *      Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ * Copyright (C) 2008 Shaohua Li <shaohua.li@intel.com>
+ * Copyright (C) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 2000-2002 J.I. Lee <jung-ik.lee@intel.com>
+ * 00/10/27	Asit Mallick, Goutham Rao <goutham.rao@intel.com> IRQ vector
+ * 04/12/04 Ashok Raj	<ashok.raj@intel.com> Intel Corporation 2004
+ * Copyright (C) 2005 Intel Corp	Zou Nan hai <nanhai.zou@intel.com>
+ * 01/05/16 Rohit Seth <rohit.seth@intel.com>  IA64-SMP functions. Reorganized
+ * 00/08/23 Asit Mallick <asit.k.mallick@intel.com> fixed logical processor id
+ * 00/03/31 Rohit Seth <rohit.seth@intel.com>	Fixes for Bootstrap Processor
+ * 10/13/00 Goutham Rao <goutham.rao@intel.com> Updated smp_call_function and
+ * 04/11/17 Ashok Raj	<ashok.raj@intel.com> Added CPU Hotplug Support
+ * 2005-Apr     Rusty Lynch <rusty.lynch@intel.com> and Anil S Keshavamurthy
+ *              <anil.s.keshavamurthy@intel.com> adapted from i386
+ * Copyright (C) 2005 Intel Corp,  Zou Nan hai <nanhai.zou@intel.com>
+ * Copyright (C) 1999 Asit Mallick <Asit.K.Mallick@intel.com>
+ * Copyright (C) 1999 Don Dugger <Don.Dugger@intel.com>
+ * Copyright (C) 2002 Fenghua Yu <fenghua.yu@intel.com>
+ * Copyright (C) 2004 Ashok Raj <ashok.raj@intel.com>
+ *     Yaozu (Eddie) Dong <eddie.dong@intel.com>
+ * Written by: Fenghua Yu <fenghua.yu@intel.com>, Intel Corporation
+MODULE_AUTHOR("Fenghua Yu <fenghua.yu@intel.com>");
+ * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
+ * 	Rohit Seth <rohit.seth@intel.com>
+ * 	Suresh Siddha <suresh.b.siddha@intel.com>
+ * 	Gordon Jin <gordon.jin@intel.com>
+ *	Ashok Raj  <ashok.raj@intel.com>
+ * 01/05/16 Rohit Seth <rohit.seth@intel.com>	Moved SMP booting functions from smp.c to here.
+ * 04/06/21 Ashok Raj		<ashok.raj@intel.com> Added CPU Hotplug Support
+ * 04/12/26 Jin Gordon <gordon.jin@intel.com>
+ * 04/12/26 Rohit Seth <rohit.seth@intel.com>
+ * 05/01/30 Suresh Siddha <suresh.b.siddha@intel.com>
+ *  Author: Stephan Zeisset, Intel Corp. <Stephan.Zeisset@intel.com>
+ *	Asit Mallick <Asit.K.Mallick@intel.com>
+ * 	Don Dugger <Don.Dugger@intel.com>
+ *	Suresh Siddha <suresh.b.siddha@intel.com>
+ *	Fenghua Yu <fenghua.yu@intel.com>
+ *  Ashok Raj <ashok.raj@intel.com>
+ * 09/15/00 Goutham Rao <goutham.rao@intel.com> Implemented pci_irq_to_vector
+ * 04/14/2004 Ashok Raj <ashok.raj@intel.com>
+ * Copyright (C) 2003 Fenghua Yu <fenghua.yu@intel.com>
+ * 05/12/00 grao <goutham.rao@intel.com> : added isr in siginfo for SIGFPE
+ * 	Rohit Seth <rohit.seth@intel.com>
+ * 	Suresh Siddha <suresh.b.siddha@intel.com>
+ * 	Gordon Jin <gordon.jin@intel.com>
+ * Copyright (C) Ashok Raj<ashok.raj@intel.com>, Intel Corporation 2004
+ * Goutham Rao: <goutham.rao@intel.com>
+ * Copyright (C) 2006 Intel Corp, Zou Nan hai <nanhai.zou@intel.com>
+ *  Copyright (C) 2000,2001 J.I. Lee <jung-ik.lee@intel.com>
+ *  Copyright (C) 2001 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001 Jenna Hall <jenna.s.hall@intel.com>
+ *  Copyright (C) 2004 Ashok Raj <ashok.raj@intel.com>
+ * 2005-May     Rusty Lynch <rusty.lynch@intel.com> and Anil S Keshavamurthy
+ *              <anil.s.keshavamurthy@intel.com> initial implementation
+ * Copyright (C) Jenna Hall <jenna.s.hall@intel.com>
+ * Copyright (C) Fred Lewis <frederick.v.lewis@intel.com>
+ * 2001-01-03 Fred Lewis <frederick.v.lewis@intel.com>
+ * 2002-01-04 Jenna Hall <jenna.s.hall@intel.com>
+ * Copyright (C) 2002 Jenna Hall <jenna.s.hall@intel.com>
+ * Copyright (C) 2008 Intel Corp.  Shaohua Li <shaohua.li@intel.com>
+ * Copyright (C) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
+ * Copyright (C) 2002 Jenna Hall <jenna.s.hall@intel.com>
+ * Copyright (C) 2001 Fred Lewis <frederick.v.lewis@intel.com>
+ * Copyright (C) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
+ *	Suresh Siddha <suresh.b.siddha@intel.com>
+ *	Fenghua Yu <fenghua.yu@intel.com>
+ *	Arun Sharma <arun.sharma@intel.com>
+ *	(c) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ *	(c) 1999 Don Dugger <don.dugger@intel.com>
+ * Copyright (C) 2000, Goutham Rao <goutham.rao@intel.com>
+ * Copyright (C) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
+ * Copyright (C) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 1999 Goutham Rao <goutham.rao@intel.com>
+ * Copyright (C) 2007 Xiantao Zhang <xiantao.zhang@intel.com>
+ *  Copyright (C) 2000,2001 J.I. Lee <jung-ik.lee@intel.com>
+ *  Copyright (C) 2001,2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ * 2005-Apr     Rusty Lynch <rusty.lynch@intel.com> and Anil S Keshavamurthy
+ *              <anil.s.keshavamurthy@intel.com> adopted from
+ *      Jun Nakajima <jun.nakajima@intel.com>
+ *      Suresh Siddha <suresh.b.siddha@intel.com>
+ * Copyright (C) 2003 Ken Chen <kenneth.w.chen@intel.com>
+ * Copyright (C) 2003 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
+ * Copyright (C) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
+ * Copyright (C) 2002,2003 Jun Nakajima <jun.nakajima@intel.com>
+ * Copyright (C) 2002,2003 Suresh Siddha <suresh.b.siddha@intel.com>
+ * Copyright (C) 2005,2006 Hongjiu Lu <hongjiu.lu@intel.com>
+ * Xiantao Zhang <xiantao.zhang@intel.com>
+ * Copyright (C) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
+ * 2005-Apr     Rusty Lynch <rusty.lynch@intel.com> and Anil S Keshavamurthy
+ *              <anil.s.keshavamurthy@intel.com> adapted from i386
+ * Copyright (C) 2006 Ken Chen <kenneth.w.chen@intel.com>
+ * Anthony Xu <anthony.xu@intel.com>
+ * Eddie Dong <eddie.dong@intel.com>
+ * Fred Yang <fred.yang@intel.com>
+ * Kevin Tian <kevin.tian@intel.com>
+ * Zhang Xin <xing.z.zhang@intel.com>
+ * Zhang xiantao <xiantao.zhang@intel.com>
+ * Copyright (C) 1999 Asit Mallick <asit.k.mallick@intel.com>
+ * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
+ * Copyright (C) 2002,2003 Jun Nakajima <jun.nakajima@intel.com>
+ * Copyright (C) 2002,2003 Suresh Siddha <suresh.b.siddha@intel.com>
+ * Copyright (C) 2007 Xiantao Zhang <xiantao.zhang@intel.com>
+ * Copyright (C) 2008 Yaozu (Eddie) Dong <eddie.dong@intel.com>
+ *  	Xiantao Zhang  (xiantao.zhang@intel.com)
+ * Copyright (c) 2007 Fleming Feng <fleming.feng@intel.com>
+ * Copyright (c) 2007 Anthony Xu   <anthony.xu@intel.com>
+ *      Asit Mallick <asit.k.mallick@intel.com>
+ *      Suresh Siddha <suresh.b.siddha@intel.com>
+ *      Kenneth Chen <kenneth.w.chen@intel.com>
+ *      Fenghua Yu <fenghua.yu@intel.com>
+ * 00/08/23 Asit Mallick <asit.k.mallick@intel.com> TLB handling
+ * 07/6/20 Xuefei Xu  (Anthony Xu) (anthony.xu@intel.com)
+ *  Shaofan Li (Susue Li) <susie.li@intel.com>
+ *  Yaozu Dong (Eddie Dong) (Eddie.dong@intel.com)
+ *  Xuefei Xu (Anthony Xu) (Anthony.xu@intel.com)
+ *  Xiantao Zhang <xiantao.zhang@intel.com>
+ *  	Xiantao Zhang  (xiantao.zhang@intel.com)
+ *  Xiantao Zhang (xiantao.zhang@intel.com)
+ *	Xuefei Xu (Anthony Xu) <anthony.xu@intel.com>
+ *	Xiantao Zhang <xiantao.zhang@intel.com>
+ *  Yaozu Dong (Eddie Dong) <Eddie.dong@intel.com>
+ *  Xuefei Xu (Anthony Xu) <anthony.xu@intel.com>
+ *  Xuefei Xu (Anthony Xu) <anthony.xu@intel.com>
+ *  Xiantao Zhang <xiantao.zhang@intel.com>
+ *  	Shaofan Li (Susue Li) <susie.li@intel.com>
+ *  	Xiaoyan Feng (Fleming Feng)  <fleming.feng@intel.com>
+ *  	Xuefei Xu (Anthony Xu) (Anthony.xu@intel.com)
+ *  	Xiantao Zhang (xiantao.zhang@intel.com)
+ * Anthony Xu    <anthony.xu@intel.com>
+ * Xiantao Zhang <xiantao.zhang@intel.com>
+ *   Xiantao Zhang <xiantao.zhang@intel.com>
+ *  Xuefei Xu (Anthony Xu) (Anthony.xu@intel.com)
+ *  Xiantao Zhang (xiantao.zhang@intel.com)
+ *  	Xiantao Zhang  (xiantao.zhang@intel.com)
+ *	Xuefei Xu (Anthony Xu) (anthony.xu@intel.com)
+ *	Fred Yang (fred.yang@intel.com)
+ * 	Kun Tian (Kevin Tian) (kevin.tian@intel.com)
+ *  	Zhang xiantao <xiantao.zhang@intel.com>
+ *  Yaozu Dong (Eddie Dong) (Eddie.dong@intel.com)
+ *  Kun Tian (Kevin Tian) (Kevin.tian@intel.com)
+ * Xuefei Xu (Anthony Xu) (anthony.xu@intel.com)
+ * Xiantao Zhang  (xiantao.zhang@intel.com)
+ * Copyright (c) 2004 Li Susie <susie.li@intel.com>
+ * Copyright (c) 2005 Yu Ke <ke.yu@intel.com>
+ * Copyright (c) 2007 Xiantao Zhang <xiantao.zhang@intel.com>
+ *  	Xuefei Xu (Anthony Xu) (Anthony.xu@intel.com)
+ *  	Yaozu Dong (Eddie Dong) (Eddie.dong@intel.com)
+ *  	Xuefei Xu (Anthony Xu) (Anthony.xu@intel.com)
+ *	Xiantao Zhang (xiantao.zhang@intel.com)
+ *  Matt Jared		matt.jared@intel.com
+ *  Andy Kopp		andy.kopp@intel.com
+ *  Dan Kogan		dan.d.kogan@intel.com
+ *  Author: Vinod Koul <vinod.koul@intel.com>
+ *  Author: Harsha Priya <priya.harsha@intel.com>
+MODULE_AUTHOR("Vinod Koul <vinod.koul@intel.com>");
+MODULE_AUTHOR("Harsha Priya <priya.harsha@intel.com>");
+ *  Author: Vinod Koul <vinod.koul@intel.com>
+ *  Author: Harsha Priya <priya.harsha@intel.com>
+ *  Author: Vinod Koul <vinod.koul@intel.com>
+ *  Author: Harsha Priya <priya.harsha@intel.com>
+MODULE_AUTHOR("Vinod Koul <vinod.koul@intel.com>");
+MODULE_AUTHOR("Harsha Priya <priya.harsha@intel.com>");
+ *  Author: Vinod Koul <vinod.koul@intel.com>
+ *  Author: Harsha Priya <priya.harsha@intel.com>
+ *  Author: Vinod Koul <vinod.koul@intel.com>
+ *  Author: Harsha Priya <priya.harsha@intel.com>
+MODULE_AUTHOR("Vinod Koul <vinod.koul@intel.com>");
+MODULE_AUTHOR("Harsha Priya <priya.harsha@intel.com>");
+M:	Zhang Rui <rui.zhang@intel.com>
+M:	Zhang Rui <rui.zhang@intel.com>
+M:	Zhang Rui <rui.zhang@intel.com>
+M:	Fenghua Yu <fenghua.yu@intel.com>
+M:	Vinod Koul <vinod.koul@intel.com>
+M:	Shaohua Li <shaohua.li@intel.com>
+M:	Mark Gross <mark.gross@intel.com>
+M:	Robert Love <robert.w.love@intel.com>
+M:	Tony Luck <tony.luck@intel.com>
+M:	Fenghua Yu <fenghua.yu@intel.com>
+M:	Andy Henroid <andrew.d.henroid@intel.com>
+M:	Sean Hefty <sean.hefty@intel.com>
+M:	Intel SCU Linux support <intel-linux-scu@intel.com>
+M:	Lukasz Dorau <lukasz.dorau@intel.com>
+M:	Maciej Patelczyk <maciej.patelczyk@intel.com>
+M:	Dave Jiang <dave.jiang@intel.com>
+M:	Sujith Thomas <sujith.thomas@intel.com>
+M:	Jeff Kirsher <jeffrey.t.kirsher@intel.com>
+M:	Jesse Brandeburg <jesse.brandeburg@intel.com>
+M:	Bruce Allan <bruce.w.allan@intel.com>
+M:	Carolyn Wyborny <carolyn.wyborny@intel.com>
+M:	Don Skidmore <donald.c.skidmore@intel.com>
+M:	Greg Rose <gregory.v.rose@intel.com>
+M:	Peter P Waskiewicz Jr <peter.p.waskiewicz.jr@intel.com>
+M:	Alex Duyck <alexander.h.duyck@intel.com>
+M:	John Ronciak <john.ronciak@intel.com>
+M:	Len Brown <len.brown@intel.com>
+M:	Richard L Maliszewski <richard.l.maliszewski@intel.com>
+M:	Gang Wei <gang.wei@intel.com>
+M:	Shane Wang <shane.wang@intel.com>
+M:	Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+M:	linux-wimax@intel.com
+M:	Johannes Berg <johannes.berg@intel.com>
+M:	Wey-Yi Guy <wey-yi.w.guy@intel.com>
+M:	Tomas Winkler <tomas.winkler@intel.com>
+M:	Mike Marciniszyn <infinipath@intel.com>
+M:	Xiantao Zhang <xiantao.zhang@intel.com>
+M:	Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+M:	Faisal Latif <faisal.latif@intel.com>
+M:	Mike Marciniszyn <infinipath@intel.com>
+M:	Len Brown <len.brown@intel.com>
+M:	Mark Gross <mark.gross@intel.com>
+M:	Adrian Hunter <adrian.hunter@intel.com>
+M:	Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+M:	linux-wimax@intel.com
+M:	Tony Luck <tony.luck@intel.com>
+ *    Authors: Aidan O'Mahony (aidan.o.mahony@intel.com)
+ *             Adrian Hoban <adrian.hoban@intel.com>
+ *             Gabriele Paoloni <gabriele.paoloni@intel.com>
+ *             Tadeusz Struk (tadeusz.struk@intel.com)
+ *     Authors: Aidan O'Mahony (aidan.o.mahony@intel.com)
+ *              Adrian Hoban <adrian.hoban@intel.com>
+ *              Gabriele Paoloni <gabriele.paoloni@intel.com>
+ *              Tadeusz Struk (tadeusz.struk@intel.com)
+ *    Authors: Aidan O'Mahony (aidan.o.mahony@intel.com)
+ *             Adrian Hoban <adrian.hoban@intel.com>
+ *             Gabriele Paoloni <gabriele.paoloni@intel.com>
+ *             Tadeusz Struk (tadeusz.struk@intel.com)
+ *   Author: Huang Ying <ying.huang@intel.com>
+ *      Dan Williams <dan.j.williams@intel.com>
+ *      Dan Williams <dan.j.williams@intel.com>
+MODULE_AUTHOR("Dan Williams <dan.j.williams@intel.com>");
+MODULE_AUTHOR("Dan Williams <dan.j.williams@intel.com>");
+ *      Dan Williams <dan.j.williams@intel.com>
+ *	Dan Williams <dan.j.williams@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ * SHA224 Support Copyright 2007 Intel Corporation <jonathan.lynch@intel.com>
+ *    Authors: Tadeusz Struk (tadeusz.struk@intel.com)
+ *             Adrian Hoban <adrian.hoban@intel.com>
+ *             Gabriele Paoloni <gabriele.paoloni@intel.com>
+ *             Aidan O'Mahony (aidan.o.mahony@intel.com)
+ * Copyright (C) 2010 Intel Corporation <tony.luck@intel.com>
+ * Copyright (C) 2010 Intel Corporation <tony.luck@intel.com>
+MODULE_AUTHOR("Tony Luck <tony.luck@intel.com>");
+ * Author: Patrick Ohly <patrick.ohly@intel.com>
+ * Author: John Fastabend <john.r.fastabend@intel.com>
+ * Ardelle Fan <ardelle.fan@intel.com>
+ *    Xingang Guo           <xingang.guo@intel.com>
+ *    Ardelle Fan           <ardelle.fan@intel.com>
+ *    Kevin Gao             <kevin.gao@intel.com>
+ *    Ardelle Fan	       <ardelle.fan@intel.com>
+ *    Xingang Guo <xingang.guo@intel.com>
+ *    Ardelle Fan <ardelle.fan@intel.com>
+ *    Kevin Gao <kevin.gao@intel.com>
+ *   Xingang Guo           <xingang.guo@intel.com>
+ *    Xingang Guo	    <xingang.guo@intel.com>
+ *    Ardelle Fan	    <ardelle.fan@intel.com>
+ *    Kevin Gao             <kevin.gao@intel.com>
+ * Author: Alexander Duyck <alexander.h.duyck@intel.com>
+ * Author: Lucy Liu <lucy.liu@intel.com>
+ * Copyright (C) 2007-2008 Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ *    Authors: Tadeusz Struk (tadeusz.struk@intel.com)
+ *             Adrian Hoban <adrian.hoban@intel.com>
+ *             Gabriele Paoloni <gabriele.paoloni@intel.com>
+ *             Aidan O'Mahony (aidan.o.mahony@intel.com)
+ *	Author: Huang Ying <ying.huang@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2001, 2002 Andy Grover <andrew.grover@intel.com>
+ *  Copyright (C) 2001, 2002 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *   Jesse Barnes <jesse.barnes@intel.com>
+ *      Jesse Barnes <jesse.barnes@intel.com>
+ *  Author: Vinod Koul <vinod.koul@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * (C) 2007 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>
+ *          Shaohua Li <shaohua.li@intel.com>
+ * Send feedback to <kristen.c.accardi@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ *	Huang Ying <ying.huang@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Copyright (C) 2010 Intel Corporation <tony.luck@intel.com>
+ *                 <dmitry.kasatkin@intel.com>
+ *     Tom Long Nguyen (tom.l.nguyen@intel.com)
+ *     Zhang Yanmin (yanmin.zhang@intel.com)
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ *	Author: Huang Ying <ying.huang@intel.com>
+ * Author: Patrick Ohly <patrick.ohly@intel.com>
+ * Kuo-Lang Tseng <kuo-lang.tseng@intel.com>
+ * Manohar Castelino <manohar.r.castelino@intel.com>
+ *    Xingang Guo <xingang.guo@intel.com>
+ *    Kevin Gao <kevin.gao@intel.com>
+ * Author: Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ *  Copyright (C) 2008  Zhang Rui <rui.zhang@intel.com>
+ *  Copyright (C) 2008  Sujith Thomas <sujith.thomas@intel.com>
+ * Author: Alexander Duyck <alexander.h.duyck@intel.com>
+ * Copyright (C) 2001 Paul Diefenbaugh <paul.s.diefenbaugh@intel.com>
+ *  Copyright (C) 2006 Luming Yu <luming.yu@intel.com>
+ * Authors: Bruce E. Robertson <bruce.e.robertson@intel.com>
+ *		Zhang Yanmin (yanmin.zhang@intel.com)
+ *		Shaohua Li (shaohua.li@intel.com)
+ * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>.
+ * Author: Lucy Liu <lucy.liu@intel.com>
+ * Author: Patrick Ohly <patrick.ohly@intel.com>
+ * Intel Corporation <linux-wimax@intel.com>
+ * Inaky Perez-Gonzalez <inaky.perez-gonzalez@intel.com>
+ * Author: Jacob Pan (jacob.jun.pan@intel.com)
+ * Copyright (C) Tom Long Nguyen (tom.l.nguyen@intel.com)
+ * Portions Copyright 2002 Intel (eli.kupermann@intel.com,
+ *                                christopher.leech@intel.com,
+ *                                scott.feldman@intel.com)
+ * Author: Ashok Raj <ashok.raj@intel.com>
+ * Author: Anil S Keshavamurthy <anil.s.keshavamurthy@intel.com>
+ * Copyright (C) Ashok Raj <ashok.raj@intel.com>
+ * Copyright (C) Shaohua Li <shaohua.li@intel.com>
+ *   Author: Huang Ying <ying.huang@intel.com>
+ * Copyright (c) 2011 Yu Ke <ke.yu@intel.com>
+ * Author: Liu, Jinsong <jinsong.liu@intel.com>
+ * Spinlocks:               Mohamed Abbas           (abbas.mohamed@intel.com)
+ * Copyright (C) 1999		Arun Sharma <arun.sharma@intel.com>
+Ben M Cahill <ben.m.cahill@intel.com>
+Kenneth W Chen <kenneth.w.chen@intel.com>
+Leonid I Ananiev <leonid.i.ananiev@intel.com>
+Rajesh Shah <rajesh.shah@intel.com>
+Tony Luck <tony.luck@intel.com>
+ * Authors: Wu Fengguang <fengguang.wu@intel.com>
+ * and originally developed by Andy Grover <andrew.grover@intel.com>
+\-\-perf\-bias parts written by Len Brown <len.brown@intel.com>
+\-\-perf\-bias parts written by Len Brown <len.brown@intel.com>
+based on turbostat.8 from Len Brown <len.brown@intel.com>
+Written by Len Brown <len.brown@intel.com>
+ * Len Brown <len.brown@intel.com>
+.\"  This page Copyright (C) 2010 Len Brown <len.brown@intel.com>
+Written by Len Brown <len.brown@intel.com>
+ * Len Brown <len.brown@intel.com>
+ *   Yanmin Zhang <yanmin.zhang@intel.com>
+ *   Wu Fengguang <fengguang.wu@intel.com>
+ *   Yanmin Zhang <yanmin.zhang@intel.com>
+ *   Wu Fengguang <fengguang.wu@intel.com>
+ * Dmitry Kasatkin <dmitry.kasatkin@intel.com>
+ *	Jarkko Sakkinen <jarkko.sakkinen@intel.com>
+E: dirk.j.brandewie@intel.com
+E: linux-wimax@intel.com
+E: reinette.chatre@intel.com
+E: yanirx.lubatkin@intel.com
+E: linux-wimax@intel.com
+E: asit.k.mallick@intel.com
+E: inaky.perez-gonzalez@intel.com
+E: linux-wimax@intel.com
+E: inaky.perez-gonzalez@intel.com
+E: goutham.rao@intel.com

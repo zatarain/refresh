@@ -80,15 +80,21 @@ done
 # Sort
 regex='#include <linux\/[^>]*>'
 for file in `find $official/$kernel/drivers/i2c/ -type f`; do
-	echo $file
+	#echo $file
 	grep "$regex" $file | sort > includes
 	#start=`sed '/^#include/q' $file | wc -l`
-	sed "/$regex/{
+	sed -i "/$regex/{
 		R includes
 		d
-	}" $file | head -n 48 | tail -n 32
+	}" $file # | head -n 48 | tail -n 32
+	grep "@intel" $file
 done
 rm includes
+
+for file in `find $official/$kernel -type f`; do
+	grep "@intel" $file
+done
+
 
 for topic in ${!counter[@]}; do
 	printf "%-15s %8s\n" $topic: ${counter[$topic]}
