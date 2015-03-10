@@ -15,15 +15,6 @@ join(){
 	return 0
 }
 
-sortincludes(){
-	regex='#include <linux\/[^>]*>'
-	grep "$regex" $1 | sort > temp
-	sed ":a;N;$!ba;s/$regex\n//g" $1 | head -n 32
-	#echo -e $sorted \\n`sed 's/$regex//g' $1` | head
-	#echo -e $sorted \\n`sed 's/$regex//g' $1` >> $1
-	return 0
-}
-
 # Variables
 temporal="kernel.tmp"
 official="kernel.off"
@@ -54,7 +45,7 @@ else
 fi
 
 # Uncompress files
-if [[ ! -d $official/$kernel ]]; then
+if [[ -d $official/$kernel ]]; then
 	tar -xvf $temporal/$filename -C $official
 fi
 
@@ -87,9 +78,17 @@ done
 #counter[includes]=`find $official/$kernel/* -type f -exec cat {} \; | grep "#include\\s<linux\\/module\\.h>" | wc -l`
 #'
 
+regex='#include <linux\/[^>]*>'
 for file in `find $official/$kernel/drivers/i2c/ -type f`; do
 	echo $file
-	sortincludes $file
+	grep "$regex" $file | sort > includes
+	#start=`sed '/^#include/q' $file | wc -l`
+	sed "/$regex/{
+		d
+		R includes
+		# s/$regex//
+	}" $file | head -n 32
+	#rm includes
 	exit
 done
 
