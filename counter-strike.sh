@@ -21,7 +21,6 @@ official="kernel.off"
 kernel=linux-$2
 filename=$kernel.tar.$3
 url="https://www.kernel.org/pub/linux/kernel/v3.x"
-
 # Create directories if necesary
 mkdir -p {$temporal,$official}
 
@@ -45,7 +44,7 @@ else
 fi
 
 # Uncompress files
-if [[ -d $official/$kernel ]]; then
+if [[ ! -d $official/$kernel ]]; then
 	tar -xvf $temporal/$filename -C $official
 fi
 
@@ -78,22 +77,18 @@ done
 #counter[includes]=`find $official/$kernel/* -type f -exec cat {} \; | grep "#include\\s<linux\\/module\\.h>" | wc -l`
 #'
 
+# Sort
 regex='#include <linux\/[^>]*>'
 for file in `find $official/$kernel/drivers/i2c/ -type f`; do
 	echo $file
 	grep "$regex" $file | sort > includes
 	#start=`sed '/^#include/q' $file | wc -l`
 	sed "/$regex/{
-		d
 		R includes
-		# s/$regex//
-	}" $file | head -n 32
-	#rm includes
-	exit
+		d
+	}" $file | head -n 48 | tail -n 32
 done
-
-#find $official/$kernel/drivers/i2c | xargs -Ifilename sortincludes filename
-
+rm includes
 
 for topic in ${!counter[@]}; do
 	printf "%-15s %8s\n" $topic: ${counter[$topic]}
