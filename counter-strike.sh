@@ -74,26 +74,31 @@ for word in ${words[@]}; do
 	echo Counting words: $word
 	counter[$word]=`echo "${content[*]}" | grep "$word" | wc -l`
 done
-#counter[includes]=`find $official/$kernel/* -type f -exec cat {} \; | grep "#include\\s<linux\\/module\\.h>" | wc -l`
+counter[includes]=`find $official/$kernel/* -type f -exec cat {} \; | grep "#include\\s<linux\\/module\\.h>" | wc -l`
 #'
 
 # Sort
 regex='#include <linux\/[^>]*>'
+script="/$regex/{
+	R includes
+	d
+}"
 for file in `find $official/$kernel/drivers/i2c/ -type f`; do
-	#echo $file
 	grep "$regex" $file | sort > includes
-	#start=`sed '/^#include/q' $file | wc -l`
-	sed -i "/$regex/{
-		R includes
-		d
-	}" $file # | head -n 48 | tail -n 32
-	grep "@intel" $file
+	if [[ `cat includes | wc -l` -gt 0 ]]; then
+		echo Sorting: $file
+		sed -i "$script" $file # | head -n 48 | tail -n 32
+	fi
+	#grep "@intel" $file
 done
 rm includes
 
-for file in `find $official/$kernel -type f`; do
-	grep "@intel" $file
-done
+# Contributors
+# find $official/$kernel -type f -exec grep "@intel" {} \;
+# find $official/$kernel -type f -exec sed '/^N:/{ N; s/\n/ /g }' {} \; | grep "@intel" > colab
+#for file in `find $official/$kernel -type f`; do
+#	grep "@intel" $file
+#done
 
 
 for topic in ${!counter[@]}; do
